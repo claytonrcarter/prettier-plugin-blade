@@ -9,7 +9,7 @@ jobs:
 
         strategy:
             matrix:
-                node-version: [14, 16]
+                node-version: [16]
                 cache: ["npm"]
 
         steps:
@@ -27,7 +27,7 @@ jobs:
 
         strategy:
             matrix:
-                node-version: [14, 16]
+                node-version: [16]
                 cache: ["npm"]
 
         steps:
